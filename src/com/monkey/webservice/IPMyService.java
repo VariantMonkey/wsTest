@@ -10,6 +10,7 @@ public class IPMyService {
     public static void main(String[] args) {
         String  address="http://192.168.1.104:8889/ns";
         Endpoint.publish(address,new MyServiceImpl());
+        System.out.println("aaaa");
     }
 }
 
